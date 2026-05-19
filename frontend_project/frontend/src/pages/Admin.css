@@ -1,0 +1,40 @@
+.admin-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f3f4f6;
+}
+
+.admin-card {
+  background: white;
+  padding: 40px;
+  width: 400px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+}
+
+.admin-card h2 {
+  text-align: center;
+  color: #111827;
+}
+
+.admin-card input {
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.admin-card button {
+  padding: 12px;
+  background: #111827;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
